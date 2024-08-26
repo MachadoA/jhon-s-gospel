@@ -71,6 +71,19 @@ p{
     border-radius: 8px;
     text-align: center;
   }
+.btnModal{
+    margin: 0 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #AD9E63;
+    font-family: inherit;
+    color: #224703;
+    margin-bottom: 10px;
+}
+.p-modal{
+    padding-bottom: 18px;
+}
 
 .information{
     padding-bottom: 20px;

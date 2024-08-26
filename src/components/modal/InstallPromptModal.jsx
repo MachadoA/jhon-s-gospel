@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 
 const InstallPromptModal = ({ onClose }) => {
   const handleInstallClick = () => {
@@ -19,10 +20,10 @@ const InstallPromptModal = ({ onClose }) => {
   return (
     <modal className="install-modal">
       <div className="install-modal-content">
-        <h2>Adicionar à Tela Inicial</h2>
-        <p>Adicione este aplicativo à sua tela inicial para acesso rápido.</p>
-        <button onClick={handleInstallClick}>Adicionar</button>
-        <button onClick={onClose}>Fechar</button>
+        <h2>Adicionar ao Ecrã</h2>
+        <p className='p-modal'>Adiciona este aplicativo ao tua ecrã inicial para acesso rápido.</p>
+        <Button className='btnModal' label='Adicionar' onClick={handleInstallClick}/>
+        <Button className='btnModal' label='Fechar' onClick={onClose}/>
       </div>
     </modal>
   );

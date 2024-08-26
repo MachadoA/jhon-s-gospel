@@ -9,8 +9,6 @@ export const DateProvider = ({ children }) => {
     const storedDate = localStorage.getItem('startDate');
     return storedDate ? new Date(storedDate) : initialDate;
   });
-  console.log(startDate);
-  console.log(initialDate)
 
   useEffect(() => {
     localStorage.setItem('startDate', startDate.toISOString());
