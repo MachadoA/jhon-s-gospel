@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDate } from '../../context/DateContext'; // Caminho correto
+import { useDate } from '../../context/DateContext';
 import data from '../../data.json';
 
 export default function ReadingToDay() {

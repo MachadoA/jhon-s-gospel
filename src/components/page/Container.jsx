@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
+import { useDate } from '../../context/DateContext';
 import Button from '../Button/Button';
 import Itens from './Itens';
-import { useDate } from '../../context/DateContext'; // Caminho correto
 import leitura from '../../../public/leitura-joao.pdf';
 
 export default function Container() {
@@ -23,7 +23,6 @@ export default function Container() {
     };
 
     const handleShareWhatsApp = () => {
-        handleCopy(); 
         const textToShare = itensRef.current ? itensRef.current.innerText : '';
         const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(textToShare)}`;
         window.open(whatsappUrl, '_blank');

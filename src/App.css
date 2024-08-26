@@ -27,22 +27,16 @@ button{cursor: pointer;}
     box-shadow: rgba(0, 0, 0, 0.24) 8px 50px 60px;
     margin: auto;
     width: 320px;
-    height: 605px;
+    height: 580px;
     margin-top: 15vh;
     padding: 20px;
     z-index: 100;
 }
-.active{
-    height: 635px;
-}
-#information{
-    padding: 16px;
-}
+
 h1{
     text-align: center;
     font-size: 30px;
     padding-bottom: 12px;
-    
 }
 h2{
     padding: 10px 0;
@@ -67,14 +61,16 @@ p{
     z-index: 1000;
   }
   
-  .install-modal-content {
+.install-modal-content {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
   }
   
-.dateToday::first-letter{text-transform: uppercase;}
+.dateToday::first-letter{
+    text-transform: uppercase;
+}
 .copyBtn{
     margin: 0 10px;
     width: 260px;
@@ -87,9 +83,7 @@ p{
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
-#copyBtn:hover,
-.copyBtn:hover,
-#whatsappBtn:hover{
+.copyBtn:hover{
     background-color: #224703;
     color: #AD9E63;
 }
@@ -102,7 +96,6 @@ h3{
     text-align: center;
 }
 
-/* condicionais por js */
 .textShowup{
   display: block;
 }
@@ -114,9 +107,6 @@ h3{
     .container{
         width: 750px;
         height: 490px;
-    }
-    .container.active{
-        height: 515px;
     }
     h1{font-size: 32px;}
     h2{text-align: center; padding: 20px 0; font-size: 28px;}
