@@ -1,0 +1,21 @@
+{
+    "short_name": "Evangelho de João",
+    "name": "Gincana Bíblica Team Teenagers",
+    "icons": [
+      {
+        "src": "./images/icon-bible.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/young-people.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  
