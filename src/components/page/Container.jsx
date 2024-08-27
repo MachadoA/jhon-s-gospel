@@ -44,7 +44,7 @@ export default function Container() {
             <section className="btnStyle">
                 <div>
                   <a href={leitura} target="_blank" rel="noopener noreferrer">
-                    <Button className='copyBtn' label='Baixar plano completo' />
+                    <Button className='copyBtn' label='Baixar Plano Completo' />
                   </a>
                 </div>
                 <div>

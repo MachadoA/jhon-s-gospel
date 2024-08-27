@@ -1,21 +1,21 @@
 {
     "short_name": "Evangelho de João",
-    "name": "Gincana Bíblica Team Teenagers",
+    "name": "Leitura Bíblica - João",
     "icons": [
       {
-        "src": "./images/young-people.jpg",
+        "src": "./images/read-bible.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "./images/young-people.jpg",
+        "src": "./images/read-bible.png",
         "sizes": "512x512",
         "type": "image/png"
       }
     ],
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#AD9E63",
     "theme_color": "#000000"
   }
   
