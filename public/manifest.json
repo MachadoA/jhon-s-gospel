@@ -3,7 +3,7 @@
     "name": "Leitura Bíblica - João",
     "icons": [
       {
-        "src": "./images/read-bible.png",
+        "src": "./images/bible-icon.png",
         "sizes": "192x192",
         "type": "image/png"
       },

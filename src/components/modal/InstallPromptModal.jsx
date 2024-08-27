@@ -21,7 +21,7 @@ const InstallPromptModal = ({ onClose }) => {
     <modal className="install-modal">
       <div className="install-modal-content">
         <h2>Adicionar ao Ecrã</h2>
-        <p className='p-modal'>Adiciona este aplicativo ao tua ecrã inicial para acesso rápido.</p>
+        <p className='p-modal'>Adiciona este aplicativo ao teu ecrã inicial para acesso rápido.</p>
         <Button className='btnModal' label='Adicionar' onClick={handleInstallClick}/>
         <Button className='btnModal' label='Fechar' onClick={onClose}/>
       </div>
